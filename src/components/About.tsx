@@ -1,0 +1,78 @@
+import { Card, CardContent } from "@/components/ui/card";
+import { CheckCircle2 } from "lucide-react";
+
+const About = () => {
+  return (
+    <section id="about" className="py-20 lg:py-28 bg-background">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div className="animate-fade-in-up">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-balance">
+              Sometimes an Organization Needs External Support
+            </h2>
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+              Organizations face challenges when they're not functioning optimally, when key
+              individuals leave, or when competitive landscapes change dramatically. The transition
+              to a digitally and AI-assisted organization can be particularly challenging.
+            </p>
+            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+              An external expert can more easily assess your organization's current state, identify
+              untapped resources, and reimagine how those assets can be leveraged for success. Fresh
+              perspectives often reveal opportunities that are difficult to see from within.
+            </p>
+
+            <Card className="border-2 shadow-md">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold mb-4">Why External Consulting?</h3>
+                <ul className="space-y-3">
+                  {[
+                    "Objective assessment of your organization",
+                    "Identification of hidden opportunities",
+                    "Strategic resource optimization",
+                    "Proven change management expertise",
+                    "Accelerated digital transformation",
+                  ].map((item, index) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                      <span className="text-muted-foreground">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="animate-fade-in-up [animation-delay:200ms]">
+            <Card className="border-2 shadow-elegant">
+              <CardContent className="p-8 lg:p-10 gradient-subtle">
+                <div className="mb-8 text-center">
+                  <div className="inline-flex items-center justify-center w-20 h-20 bg-primary rounded-2xl mb-4">
+                    <span className="text-primary-foreground font-bold text-2xl">MCF</span>
+                  </div>
+                  <h3 className="text-2xl font-bold">Management Consulting Fuoco</h3>
+                </div>
+
+                <div className="space-y-6 text-center">
+                  <div>
+                    <p className="text-sm text-muted-foreground mb-1">Location</p>
+                    <p className="font-semibold">Helsinki, Finland</p>
+                  </div>
+                  
+                  <div className="pt-6 border-t border-border">
+                    <p className="text-lg font-medium mb-4">Ready to Transform Your Organization?</p>
+                    <p className="text-muted-foreground">
+                      Let's discuss your challenges over coffee and explore how we can help you
+                      achieve your goals.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
