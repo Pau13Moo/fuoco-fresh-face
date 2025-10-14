@@ -19,7 +19,7 @@ const Hero = () => {
           alt="Professional business consultation"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 gradient-hero opacity-90" />
+        <div className="absolute inset-0 gradient-hero opacity-60" />
       </div>
 
       {/* Content */}
