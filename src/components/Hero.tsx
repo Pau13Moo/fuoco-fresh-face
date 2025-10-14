@@ -25,7 +25,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-4xl mx-auto text-center text-primary-foreground">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 animate-fade-in-up text-balance">
+          <h1 className="font-merriweather text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 animate-fade-in-up text-balance">
             Transform Your Organization with Expert Guidance
           </h1>
           <p className="text-lg sm:text-xl lg:text-2xl mb-8 opacity-95 animate-fade-in-up [animation-delay:200ms] text-balance max-w-3xl mx-auto">
