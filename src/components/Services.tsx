@@ -40,23 +40,6 @@ const services = [
     title: "Interim Leadership",
     description: "Targeted executive support including CEO, COO, Chief of Staff, and strategic projects",
   },
-  {
-    icon: Code,
-    title: "Collaborative Software Development",
-    description: (
-      <>
-        In partnership with a European software development company, Kibit Solutions, Fuoco offers software services from audits to integrated tech solutions, digital transformation and custom software builds.{" "}
-        <a 
-          href="https://www.kibitsolutions.com" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="text-accent hover:text-accent/80 underline transition-smooth"
-        >
-          www.kibitsolutions.com
-        </a>
-      </>
-    ),
-  },
 ];
 
 const Services = () => {
@@ -95,18 +78,42 @@ const Services = () => {
           })}
         </div>
 
-        <div className="mt-12 p-6 lg:p-8 rounded-2xl bg-card border-2 shadow-md">
-          <div className="flex items-start gap-4">
-            <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
-              <Users className="h-6 w-6 text-accent" />
+        <div className="mt-12 grid md:grid-cols-2 gap-6">
+          <div className="p-6 lg:p-8 rounded-2xl bg-card border-2 shadow-md">
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
+                <Users className="h-6 w-6 text-accent" />
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-2">Expert Network</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Fuoco's network includes experienced business professionals with varying roles and
+                  strengths. Looking for a new or replacement contributor? Check with us first to see
+                  current availability in our network.
+                </p>
+              </div>
             </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-2">Expert Network</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Fuoco's network includes experienced business professionals with varying roles and
-                strengths. Looking for a new or replacement contributor? Check with us first to see
-                current availability in our network.
-              </p>
+          </div>
+
+          <div className="p-6 lg:p-8 rounded-2xl bg-card border-2 shadow-md">
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
+                <Code className="h-6 w-6 text-accent" />
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-2">Collaborative Software Development</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  In partnership with a European software development company, Kibit Solutions, Fuoco offers software services from audits to integrated tech solutions, digital transformation and custom software builds.{" "}
+                  <a 
+                    href="https://www.kibitsolutions.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-accent hover:text-accent/80 underline transition-smooth"
+                  >
+                    www.kibitsolutions.com
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
