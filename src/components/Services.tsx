@@ -105,12 +105,12 @@ const Services = () => {
                 <p className="text-muted-foreground leading-relaxed">
                   In partnership with a European software development company, Kibit Solutions, Fuoco offers software services from audits to integrated tech solutions, digital transformation and custom software builds.{" "}
                   <a 
-                    href="https://www.kibitsolutions.com" 
+                    href="https://kibitsolutions.com" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-accent hover:text-accent/80 underline transition-smooth"
                   >
-                    www.kibitsolutions.com
+                    kibitsolutions.com
                   </a>
                 </p>
               </div>
