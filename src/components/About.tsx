@@ -1,7 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2 } from "lucide-react";
 import satuImage from "@/assets/satu-palosaari.jpg";
-import logoImage from "@/assets/logo-option-2-hexagon-modern.png";
 
 const About = () => {
   return (
@@ -48,11 +47,9 @@ const About = () => {
             <Card className="border-2 shadow-elegant">
               <CardContent className="p-8 lg:p-10 gradient-subtle">
                 <div className="mb-8 text-center">
-                  <img 
-                    src={logoImage} 
-                    alt="MCF Logo" 
-                    className="w-20 h-20 mx-auto mb-4"
-                  />
+                  <div className="inline-flex items-center justify-center w-20 h-20 bg-primary rounded-2xl mb-4">
+                    <span className="text-primary-foreground font-bold text-2xl">MCF</span>
+                  </div>
                   <h3 className="text-2xl font-bold">Management Consulting Fuoco</h3>
                 </div>
 
