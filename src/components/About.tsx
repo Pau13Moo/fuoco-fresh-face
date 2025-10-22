@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2 } from "lucide-react";
+import satuImage from "@/assets/satu-palosaari.jpg";
 
 const About = () => {
   return (
@@ -52,18 +53,25 @@ const About = () => {
                   <h3 className="text-2xl font-bold">Management Consulting Fuoco</h3>
                 </div>
 
-                <div className="space-y-6 text-center">
-                  <div className="text-left">
-                    <p className="text-muted-foreground leading-relaxed">
-                      Owner and Founder of Management Consulting Fuoco, Satu M. Palosaari, 
-                      is a senior strategist and operational leader with extensive experience in technology-driven organizations, including two decades at Nokia in various leadership roles. She specializes in turning complex strategies into actionable programs, guiding teams through growth and change, and building cross-sector partnerships. Her background includes mentoring senior professionals and serving in interim management roles across industries. Her approach is pragmatic, collaborative, and focused on delivering results that last.
-                    </p>
-                    <p className="text-muted-foreground leading-relaxed mt-4">
-                      She also works closely with a trusted network of professionals covering a wide range of expert and C-level roles. Many of them are available for interim assignments - just check with Satu to explore possibilities.
-                    </p>
+                <div className="space-y-6">
+                  <div className="flex flex-col sm:flex-row gap-6 items-start">
+                    <img 
+                      src={satuImage} 
+                      alt="Satu M. Palosaari" 
+                      className="w-32 h-32 rounded-full object-cover shadow-md flex-shrink-0"
+                    />
+                    <div className="text-left">
+                      <p className="text-muted-foreground leading-relaxed">
+                        Owner and Founder of Management Consulting Fuoco, Satu M. Palosaari, 
+                        is a senior strategist and operational leader with extensive experience in technology-driven organizations, including two decades at Nokia in various leadership roles. She specializes in turning complex strategies into actionable programs, guiding teams through growth and change, and building cross-sector partnerships. Her background includes mentoring senior professionals and serving in interim management roles across industries. Her approach is pragmatic, collaborative, and focused on delivering results that last.
+                      </p>
+                      <p className="text-muted-foreground leading-relaxed mt-4">
+                        She also works closely with a trusted network of professionals covering a wide range of expert and C-level roles. Many of them are available for interim assignments - just check with Satu to explore possibilities.
+                      </p>
+                    </div>
                   </div>
 
-                  <div>
+                  <div className="text-center">
                     <p className="text-sm text-muted-foreground mb-1">Location</p>
                     <p className="font-semibold">Helsinki, Finland</p>
                   </div>
