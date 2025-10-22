@@ -6,6 +6,7 @@ import {
   RefreshCw,
   GraduationCap,
   Briefcase,
+  Code,
 } from "lucide-react";
 
 const services = [
@@ -38,6 +39,23 @@ const services = [
     icon: Briefcase,
     title: "Interim Leadership",
     description: "Targeted executive support including CEO, COO, Chief of Staff, and strategic projects",
+  },
+  {
+    icon: Code,
+    title: "Collaborative Software Development",
+    description: (
+      <>
+        In partnership with a European software development company, Kibit Solutions, Fuoco offers software services from audits to integrated tech solutions, digital transformation and custom software builds.{" "}
+        <a 
+          href="https://www.kibitsolutions.com" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-accent hover:text-accent/80 underline transition-smooth"
+        >
+          www.kibitsolutions.com
+        </a>
+      </>
+    ),
   },
 ];
 
