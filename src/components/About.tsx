@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2 } from "lucide-react";
 import satuImage from "@/assets/satu-palosaari.jpg";
-import logoImage from "@/assets/logo-burgundy-hexagon.png";
+import logoImage from "@/assets/logo-option-d.png";
 
 const About = () => {
   return (

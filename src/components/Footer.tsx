@@ -1,4 +1,4 @@
-import logoImage from "@/assets/logo-burgundy-hexagon.png";
+import logoImage from "@/assets/logo-option-d.png";
 
 const Footer = () => {
   return (
