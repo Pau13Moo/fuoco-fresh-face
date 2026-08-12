@@ -17,8 +17,28 @@ const services = [
   },
   {
     icon: TrendingUp,
-    title: "Market Analyses",
-    description: "Comprehensive market research and competitive landscape assessments",
+    title: "Sales and Marketing Go-To-Market Partner",
+    description: (
+      <>
+        We partner with{" "}
+        <a
+          href="https://senpai.hu/en/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-accent hover:text-accent/80 underline transition-smooth"
+        >
+          SenpAI
+        </a>{" "}
+        Consulting to provide clients with next-generation, AI-driven B2B outbound engines for
+        scalable market expansion. SenpAI replaces traditional, volume-based spam with intelligent
+        signal tracking and hyper-personalized outreach.
+        <span className="block mt-3 italic text-muted-foreground">
+          "I highly recommend their framework to tech-forward and mid-sized firms looking to enter
+          new international markets efficiently, without the need to scale internal sales headcount."
+        </span>
+        <span className="block mt-1 font-medium text-muted-foreground">- Satu</span>
+      </>
+    ),
   },
   {
     icon: Users,
